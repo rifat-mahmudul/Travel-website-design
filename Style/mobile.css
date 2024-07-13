@@ -42,4 +42,12 @@ nav ul li{
 .popular-tours-img img{
     width: 100%;
 }
+
+.popular-tours-text{
+    text-align: center;
+}
+
+.popular-tours-text ul li{
+    list-style: none;
+}
 /* .popular-tours-section end */
