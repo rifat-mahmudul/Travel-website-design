@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
 }
 
 /* header section start */
@@ -150,3 +153,55 @@ nav ul li a:hover{
     background-color: rgb(210, 72, 4);
 }
 /* home section end */
+
+/* popular-tours section start */
+.popular-tours-seciton{
+    margin-top: 70px;
+}
+
+.popular-tours-container{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.popular-tours-text h1{
+    font-size: 2em;
+}
+
+.popular-tours-text p{
+    margin: 15px 0;
+    color: gray;
+}
+
+.popular-tours-text li{
+    margin-left: 12px;
+}
+
+.read-more-btn{
+    padding: 10px 15px;
+    background-color: rgb(255, 84, 0);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.read-more-btn:hover{
+    background-color: rgb(210, 72, 4);
+}
+
+.popular-tours-img{
+    width: 95%;
+    height: 450px;
+}
+
+.popular-tours-img img{
+    height: 100%;
+    width: 100%;
+}
+/* popular-tours section end */

@@ -28,3 +28,18 @@ nav ul li{
     margin: 0px;
 }
 /* header seciton end */
+
+/* .popular-tours-section start */
+.popular-tours-container{
+    width: 95%;
+    flex-direction: column;
+}
+
+.popular-tours-img{
+    width: 95%;
+}
+
+.popular-tours-img img{
+    width: 100%;
+}
+/* .popular-tours-section end */
