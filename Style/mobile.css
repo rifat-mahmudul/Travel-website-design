@@ -31,7 +31,7 @@ nav ul li{
 
 /* .popular-tours-section start */
 .popular-tours-container{
-    width: 95%;
+    width: 100%;
     flex-direction: column;
 }
 
