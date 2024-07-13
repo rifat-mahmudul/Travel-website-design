@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section start */
+header{
+    padding: 15px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    margin: 0 auto;
+}   
+
+.logo-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a img{
+    height: 30px;
+}
+
+nav a h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.logo-span{
+    color: rgb(255, 84, 0);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.first-link{
+    color: rgb(255, 84, 0);
+}
+
+nav ul li a{
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 84, 0);
+}
+/* header section end */
+
+/* home section start */
+
+.home-container{
+    max-width: 1150px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.35);
+    background-blend-mode: overlay;
+    border-radius: 20px;
+}
+
+.home-container-items{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-container-text h1{
+    color: white;
+    font-size: 2.75em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.home-container-text p{
+    color: white;
+    font-size: 1em;
+}
+
+.home-container-option{
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.297);
+    border-radius: 10px;
+}
+
+
+.home-container-option button{
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.arrow-btn{
+    background-color: white;
+    color: gray;
+}
+
+.arrow-btn i{
+    margin-left: 20px;
+}
+
+.find-btn{
+    background-color: rgb(255, 84, 0);
+    color: white;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.find-btn:hover{
+    background-color: rgb(210, 72, 4);
+}
+
+.btn-3{
+    margin-left: 10px;
+}
+
+.btn-2{
+    margin-left: 10px;
+}
+/* home section end */
