@@ -15,7 +15,17 @@ nav{
     align-items: center;
     max-width: 1150px;
     margin: 0 auto;
-}   
+}
+
+.nav-icon{
+    display: none;
+}
+
+
+.nav-icon i{
+    font-size: 30px;
+    font-weight: bold;
+}
 
 .logo-div{
     display: flex;
@@ -99,6 +109,7 @@ nav ul li a:hover{
 .home-container-text p{
     color: white;
     font-size: 1em;
+    margin-bottom: 20px;
 }
 
 .home-container-option{
@@ -115,6 +126,11 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
+.home-container-btn{
+    display: flex;
+    gap: 20px;
+}
+
 .arrow-btn{
     background-color: white;
     color: gray;
@@ -127,19 +143,10 @@ nav ul li a:hover{
 .find-btn{
     background-color: rgb(255, 84, 0);
     color: white;
-    margin-left: 10px;
     transition: 0.5s;
 }
 
 .find-btn:hover{
     background-color: rgb(210, 72, 4);
-}
-
-.btn-3{
-    margin-left: 10px;
-}
-
-.btn-2{
-    margin-left: 10px;
 }
 /* home section end */

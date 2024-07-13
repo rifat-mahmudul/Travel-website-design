@@ -1,0 +1,30 @@
+.hide{
+    display: none;
+}
+/* header section start */
+nav{
+    width: 95%;
+}
+
+.nav-icon{
+    display: block;
+}
+
+.home-container{
+    width: 95%;
+}
+
+.home-container-btn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    gap: 20px;
+}
+nav ul li{
+    display: none;
+}
+
+.btn-3{
+    margin: 0px;
+}
+/* header seciton end */
